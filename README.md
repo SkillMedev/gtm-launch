@@ -9,7 +9,7 @@ Everything between 'the product is ready' and 'people are buying it,' as one wor
 ## Install
 
 - **From the catalog:** [skillme.dev/pack/gtm-launch](https://skillme.dev/pack/gtm-launch) — install the whole pack into Claude in one step.
-- **With the skills CLI:** `npx skills add aouellets/gtm-launch`
+- **With the skills CLI:** `npx skills add SkillMedev/gtm-launch`
 - **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
 
 ## Skills in this pack
