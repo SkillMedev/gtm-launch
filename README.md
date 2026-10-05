@@ -1,16 +1,17 @@
 # Go-to-Market Launch
 
-**Position it, message it, sequence the launch, run launch day, and equip the self-serve and sales motions - without reinventing your pricing work.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**Position it, message it, sequence the launch, run launch day, and equip the self-serve and sales motions - without reinventing your pricing work.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-gtm-launch).
 
 Everything between 'the product is ready' and 'people are buying it,' as one workflow. Nail positioning (alternatives → value → segment), build the messaging hierarchy that keeps site, ads, and sales consistent, sequence the pre-launch → launch-day → post-launch arc, run launch day hour-by-hour across Product Hunt, Hacker News, social, email, and changelog, write the press release with the inverted-pyramid discipline and a fill-in skeleton, design the product-led activation motion to the aha-moment, and equip sales with a one-pager, battlecard, demo script, and objection matrix. Bundled with the catalog's go-to-market planner, landing-page copy, competitive intelligence, and pricing skills so you reuse them instead of duplicating.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/gtm-launch](https://skillme.dev/pack/gtm-launch) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/gtm-launch?utm_source=github&utm_medium=readme&utm_campaign=pack-gtm-launch) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add positioning-statement messaging-hierarchy launch-plan-sequencer launch-day-runbook press-release-writer plg-motion-designer sales-enablement-kit go-to-market-planner landing-page-copy competitive-intelligence pricing-strategy saas-pricing --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/gtm-launch`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -30,4 +31,4 @@ Everything between 'the product is ready' and 'people are buying it,' as one wor
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-gtm-launch).
